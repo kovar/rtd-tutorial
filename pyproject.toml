@@ -1,22 +1,6 @@
 [project]
 name = "lumache"
-version = "0.1.0"
-description = "Create a pyproject.toml file for an existing project."
-authors = [
-    "Martin Thoma <info@martin-thoma.de>"
-]
-license = "MIT"
-readme = "README.md"
-python = "^3.6"
-homepage = "https://github.com/MartinThoma/infer_pyproject"
-repository = "https://github.com/MartinThoma/infer_pyproject"
-documentation = "https://github.com/MartinThoma/infer_pyproject"
-
-keywords = ["packaging", "dependency", "infer", "pyproject.toml"]
-
-classifiers = [
-    "Topic :: Software Development"
-]
+authors = [{name = "Graziella", email = "graziella@lumache"}]
 dynamic = ["version", "description"]
 
 [build-system]
