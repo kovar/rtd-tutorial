@@ -20,6 +20,6 @@ classifiers = [
 dynamic = ["version", "description"]
 
 [build-system]
-requires = ["setuptools >= 42.0"]
-build-backend = "setuptools.build_meta"
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
 
